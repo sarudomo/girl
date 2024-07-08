@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash water effect</title>
+    <style>
+        h1{display:none;}
+        section{max-width: 1110px; margin:auto; background-color: black; position: relative; overflow:hidden;}
+        img{display:block ;}
+        [alt="girl"]{animation: toleft 2.5s both; width:51%; right: 0.1%; position: relative; margin: 0 0 0 auto}
+        img:last-of-type{width:auto; width:77%; top:0.1%; left:0.1%; position: absolute; animation: toleft2 2s 0.3s both; }
+
+        @keyframes toleft{
+            from{margin-right: -100px; opacity: 0;}
+            to{margin-right: 0; opacity:1;}
+        }
+
+        @keyframes toleft2{
+            from{left: 100px; opacity: 0;}
+            to{left: 0; opacity:1;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <Section>
+        <h1>splash & girl</h1>
+        <img src="images/Girl.png" Alt="girl">
+        <img src="images/Splash.png" alt="splash">
+
+    </Section>
+</body>
+</html>
