@@ -7,9 +7,12 @@
     <style>
         h1{display:none;}
         section{max-width: 1110px; margin:auto; background-color: black; position: relative; overflow:hidden;}
+        section img{transition:0.5s}
+        section:hover img {filter:hue-rotate(200deg) blur(5px) ; transform:scale(1.1);}
         img{display:block ;}
         [alt="girl"]{animation: toleft 2.5s both; width:51%; right: 0.1%; position: relative; margin: 0 0 0 auto}
         img:last-of-type{width:auto; width:77%; top:0.1%; left:0.1%; position: absolute; animation: toleft2 2s 0.3s both; }
+        
 
         @keyframes toleft{
             from{margin-right: -100px; opacity: 0;}
